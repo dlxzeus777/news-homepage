@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <img src="./assets/images/logo.svg" alt="logo">
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </header>
+    <div class="mobile-menu d-none">
+      <ul>
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+    </div>
+    <section class="flex">
+      <div class="article">
+        <div class="img-box">
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="web3">
+        </div>
+        <div class="wrapper">
+          <h1 class="heading">The Bright Future of Web 3.0?</h1>
+          <div class="articletext-container">
+            <p class="article-text"> We dive into the next evolution of the web that claims to put the power of the
+              platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+            <button class="btn">Read more</button>
+          </div>
+        </div>
+      </div>
+      <div class="news-box">
+        <div class="news">
+          <h2>New</h2>
+          <div class="news-container">
+            <h3 class="news-heading">Hydrogen VS Electric Cars</h3>
+            <p class="news-text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div class="news-container">
+            <h3 class="news-heading">The Downsides of AI Artistry</h3>
+            <p class="news-text">What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <div class="news-container">
+            <h3 class="news-heading">Is VC Funding Drying Up?</h3>
+            <p class="news-text">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="box-container">
+      <div class="box">
+        <div class="img-container">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="retro-pc">
+        </div>
+        <div class="texts">
+          <div class="nums">01</div>
+          <h4>Reviving Retro PCs</h4>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-container">
+          <img src="./assets/images/image-top-laptops.jpg" alt="laptops">
+        </div>
+        <div class="texts">
+          <div class="nums">02</div>
+          <h4>Top 10 Laptops of 2022</h4>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-container">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="gaming">
+        </div>
+        <div class="texts">
+          <div class="nums">03</div>
+          <h4>The Growth of Gaming</h4>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
