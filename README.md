@@ -19,3 +19,4 @@ Your users should be able to:
 - JavaScript
 
 ## Live site URL:
+- https://dlxzeus777.github.io/news-homepage/
